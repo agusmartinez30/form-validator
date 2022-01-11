@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Carrito Objeto</title>
+        <link rel="stylesheet" href="estilo.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <h1>Formularios</h1>
+            <form id="formulario">
+                <input type="text"
+                        id="nombreUser"
+                        name="nombreUser"
+                        placeholder="Ingrese su nombre de usuario"
+                        required
+                        autocomplete="off"
+                        min="3"
+                        max="10"
+                >
+            </form>
+          
+            <div
+                class="alert alert-success mt-2 d-none"
+                id="alertSuccess"
+            ></div>
+        </div>
+
+        <script src="app.js"></script>
+    </body>
+</html>
